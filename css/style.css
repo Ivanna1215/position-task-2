@@ -29,9 +29,7 @@ width: 370px;
 height: 50px;
 /* border: 2px solid green; */
 font-size: 34px;
-
 color: #3c3c3c;
-
 font-family: "Lato";
 text-align: center;
 text-transform: uppercase;
@@ -45,7 +43,6 @@ margin-bottom: 5px;
     border-bottom: 2px solid gray;
     text-align: center;
     margin-bottom: 10px;
-
 }
 
 .text {
@@ -53,9 +50,9 @@ margin-bottom: 5px;
     height: 120px;
     /* border: 2px solid green; */
     font-size: 16px;
-/* letter-spacing: 5px; */
+
 color: #3c3c3c;
-/* font-weight: 700; */
+
 font-family: "Lato";
 text-align: center;
 /* margin: auto; */
@@ -67,6 +64,7 @@ text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* justify-content: space-around; */
     /* margin: 20px;  */
     /* margin-right: 34px; */
     /* border: 3px solid red; */
@@ -77,9 +75,14 @@ text-align: center;
     height: 271px;
     background-color: #18B5DC;
     position: absolute;
+    /* right: 20px; */
+    /* left: 58px; */
+    /* top: 20px; */
+    /* bottom: 20px; */
     opacity: 0;
     display: flex;
     align-items: center;
+    justify-content: space-around;
     justify-content: center;
     /* margin: 20px;  */
     /* z-index: -2; */
@@ -107,6 +110,7 @@ text-align: center;
 
 .hover-img:hover {
     opacity:1;
+    
 }
 
 .big-text {

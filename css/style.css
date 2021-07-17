@@ -3,6 +3,14 @@
     src: url("/position-task-2/fonts/Lato/Lato-Black.ttf");
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    height: 90vh;
+}
+
 .container {
     width: 1300px;
     height: 737px;
@@ -11,8 +19,8 @@
     /* display: flex; */
     /* justify-content: center; */
     /* align-items: center; */
-    margin: auto 0;
-    margin-right: 0;
+    /* margin:   0 auto ; */
+   
 }
 .title-1 {
     width: 500px;
@@ -80,13 +88,14 @@ text-align: center;
     align-items: center;
     justify-content: space-around;
     justify-content: center;
-    /* border: 3px solid pink; */
- transition-duration: 10s;
-    transition-property:background-color;
-    transition-delay: 5s;
-    /* transition-timing-function:inherit; */
+    transition: opacity 3s;
+}
+
+.hover-img:hover {
+    opacity:1;
     
 }
+
 .wrap {
     width: 43px;
     height: 43px;
@@ -105,11 +114,6 @@ text-align: center;
     margin-right: 0;
     /* border: 3px solid yellow; */
     margin: 0 auto;
-}
-
-.hover-img:hover {
-    opacity:1;
-    transition-duration: 10s;
 }
 
 .big-text {
